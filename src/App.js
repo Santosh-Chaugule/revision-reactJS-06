@@ -1,25 +1,19 @@
-import logo from './logo.svg';
+//Import area
 import './App.css';
+import AComp1 from './components/AComp1';
+import BComp2 from './components/BComp2';
 
+//2.function defination area
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AComp1 santosh="Stack" />
+      <AComp1 santosh="Stack" />
+      <BComp2 oklabs="Hackers" />
     </div>
   );
 }
 
+
+//export area
 export default App;
